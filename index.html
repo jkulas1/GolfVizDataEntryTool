@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel = "stylesheet" href = "style.css"/>
+    <script src="Scripts/jquery-1.11.3.min.js"></script>
+    <script src="Scripts/jquery-ui.min.js"></script>
+    <link rel="stylesheet" href="Scripts/jquery-ui.min.css">
+    <script src="Scripts/jquery.layout.js"></script>
+    <script src="Scripts/d3.carto.map.js"></script>
+    <script src="Scripts/d3.geo.projection.v0.min.js"></script>
+    <script src="Scripts/d3.v3.js" charset="utf-8" type="text/javascript"></script>
+    <script src="Scripts/FileSaver.js"></script>
+    <script src="script.js"></script>
+</head>
+<body>
+<div id = main>
+    <div id = rankingInformation>
+        <h2>Publication</h2>
+        <input id = 'pubName' class = 'rankingInfo'/>
+        <h2>Year</h2>
+        <input id = 'pubYear' class = 'rankingInfo'/>
+        <h2>Type</h2>
+        <select id = 'pubType' class = 'rankingInfo'>
+            <option value = "Public"> Public</option>
+            <option value = "All"> All</option>
+        </select>
+        <button id = "startRanking" class = 'rankingInfo' onclick = "submitRankingInfo()"> Submit Ranking Information</button>
+        <button id = "completeRanking" class = 'rankingInfo' onclick = "finishRanking()">Complete Ranking</button>
+    </div>
+    <div id = "availableCourses" class = "availableCourses">
+        <h2>Available Courses</h2>
+    </div>
+    <div id = "enteredCourses">
+        <h2> Entered Courses</h2>
+    </div>
+    <div id = "courseInformation" class = "courseInformation">
+        <h2> Course </h2>
+        <input id = "courseName" class = "courseInformation"/>
+        <h2> Rank </h2>
+        <input id = "courseRank" class = "courseInformation"/>
+        <h2> Architect</h2>
+        <input id = "courseArchitect" class = "courseInformation"/>
+        <h2> State</h2>
+        <input id = "courseState" class = "courseInformation"/>
+        <h2> Year </h2>
+        <input id = "courseYear" class = "courseInformation"/>
+        <h2> X Coordinate</h2>
+        <input id = "courseXCoordinate" class = "courseInformation"/>
+        <h2>Y Coordinate</h2>
+        <input id = "courseYCoordinate" class = "courseInformation"/>
+        <h2> Type</h2>
+        <input id = "courseType" class = "courseInformation"/>
+        <button id = "submitCourseInfo" class = "courseInformation" onclick = "submitCourseInfo()"> Submit </button>
+
+    </div>
+    <div id = "outputInformation">
+
+    </div>
+</div>
+</body>
+</html>

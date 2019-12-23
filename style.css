@@ -1,0 +1,46 @@
+#rankingInformation, #enteredCourses, #availableCourses,#courseInformation {
+    border:solid 1px #333333;
+    border-radius: 3px;
+    position:absolute;
+}
+
+
+#rankingInformation {
+    width:25%;
+    left:0%;
+}
+
+#availableCourses {
+    width:25%;
+    left:25%;
+    height:300px;
+    overflow-y:scroll;
+}
+
+#enteredCourses {
+    width:25%;
+    left:50%;
+    height:300px;
+    overflow-y: scroll;
+}
+
+#courseInformation {
+    width: 25%;
+    left: 75%;
+
+}
+#courseInformation *, #rankingInformation * {
+    margin-bottom: 5px;
+    margin-top: 0;
+    text-align:center;
+}
+input {
+    margin-left:33%;
+}
+li {
+    list-style:none;
+}
+
+.submittedCourse {
+    background-color:gray;
+}

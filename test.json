@@ -1,0 +1,34 @@
+{
+  "publication":"Golf Magazine",
+  "Year":1999,
+  "Type":"public",
+  "Courses": [
+    {
+      "CourseName":"Ak-Chin Southern Dunes Golf Club",
+      "Ranking":1,
+      "State":"AZ",
+      "Architect":"Schmidt-Curley/Fred Couples",
+      "Year":"2002",
+      "Coordinates":[33.085701,-112.0883]}
+  ,{
+      "CourseName":"Atlantic City Country Club",
+      "Ranking":2,
+      "State":"NJ",
+      "Architect":"Reid/Park Jr./Flynn/Doak",
+      "Year":"1897/1923/1999",
+      "Coordinates":[39.370544,-74.54129]}
+  ,{
+      "CourseName":"Arnold Palmer's Bay Hill Club (Championship)",
+      "Ranking":3,
+      "State":"FL",
+      "Architect":"Dick Wilson/Arnold Palmer",
+      "Year":"1961/2009",
+      "Coordinates":[28.458774,-81.51029]}
+  ,{
+      "CourseName":"Baltimore (Five Farms East)",
+      "Ranking":4,
+      "State":"MD",
+      "Architect":"A.W. Tillinghast",
+      "Year":"1926",
+      "Coordinates":[39.440172,-76.661699]}
+  ]}
